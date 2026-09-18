@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#234f32">
-
   <title>Semana da Engenharia Florestal 2026 | SEF</title>
-
   <!-- Fontes com aspecto natural/elegante -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-
   <style>
     :root{
       --verde-escuro:#173823;
@@ -217,6 +212,34 @@
       font-size:.94rem;
     }
 
+    .event-prices{
+      margin-top:12px;
+      padding-top:12px;
+      border-top:1px solid rgba(47,96,61,.14);
+      display:grid;
+      gap:7px;
+    }
+
+    .event-prices p{
+      margin:0;
+      color:#405349;
+      font-size:.94rem;
+      line-height:1.45;
+    }
+
+    .event-prices strong{
+      display:inline;
+      color:var(--verde-escuro);
+      font-weight:700;
+    }
+
+    .event-prices .minicurso{
+      margin-top:4px;
+      color:var(--verde);
+      font-weight:600;
+    }
+
+
     .price-card{
       background:
         linear-gradient(145deg,rgba(255,255,255,.98),rgba(238,243,233,.98));
@@ -397,11 +420,10 @@
       }
     }
   </style>
-
 </head>
-
 <body>
   <div class="page">
+
 
 <header class="hero">
   <div class="hero-content">
@@ -456,6 +478,13 @@
           <div>
             <strong>Evento</strong>
             <span>Semana da Engenharia Florestal — SEF</span>
+
+            <div class="event-prices">
+              <p><strong>Discente:</strong> 20 reais 👨‍🎓</p>
+              <p><strong>Docente:</strong> 60 reais 👨‍🏫</p>
+              <p><strong>Pós-Graduando:</strong> 40 reais 👨‍🔬</p>
+              <p class="minicurso"><strong>Minicursos:</strong> 10 reais (valor extra) 🌳💚</p>
+            </div>
           </div>
         </div>
       </div>
